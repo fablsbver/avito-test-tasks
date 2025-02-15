@@ -1,6 +1,49 @@
 # Тестовое задание для стажировки разработчиков в Avito
 # Структура проекта
 
+<details> <summary>Структура проекта</summary>
+  
+```plaintext
+├── allure-results/ отчеты allure
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── pages/ классы POM model
+│   │   │   │   ├── AdPage.java страница редактирования
+│   │   │   │   ├── CreateAdModal.java страница создания
+│   │   │   │   └── MainPage.java главная страница
+│   │   │   ├── properties/
+│   │   │   │   └── TestProperties.java класс для обработки properties
+│   │   │   ├── test_data/
+│   │   │   │   ├── Constants.java константы
+│   │   │   │   └── TestData.java  данные для заполнения полей
+│   │   │   ├── utils/
+│   │   │       ├── RandomValueGenerator.java генератор случайных значений
+│   │   │       └── TransliteratedValueGenerator.java генератор транслителированных значений
+│   │   ├── resources/
+│   │   │   └── test.properties
+│   │   ├── screenshots/
+│   │       ├── allure result 1.png 
+│   │       └── allure result 2.png
+│   ├── test/
+│       ├── java/
+│           ├── base_test/
+│           │   └── BaseTest.java тестовый класс с настройками 
+│           ├── functionalities/ тестовые классы
+│               ├── ads/
+│                   ├── creating/ проверки создания объявлений
+│                   │   ├── NegativeTest.java негативные сценарии
+│                   │   └── PositiveTest.java позитивные сценарии
+│                   ├── editing/ проверки редактирования объявлений
+│                   │   ├── NegativeTest.java негативные сценарии
+│                   │   └── PositiveTest.java позитивные сценарии
+│                   ├── search/ проверки поиска объявлений
+│                       ├── NegativeTest.java негативные сценарии
+│                       └── PositiveTest.java позитивные сценарии
+└── pom.xml
+```
+
+
 ## Технологический стек
 В данном проекте используются следующие технологии и инструменты:
 
