@@ -5,6 +5,7 @@
   
 ```plaintext
 ├── allure-results/ отчеты allure
+├── screenshots/ скриншоты отчетов allure пройденных тестов проекта
 ├── src/
 │   ├── main/
 │   │   ├── java/
