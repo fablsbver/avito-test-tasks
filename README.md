@@ -22,9 +22,7 @@
 │   │   │       └── TransliteratedValueGenerator.java генератор транслителированных значений
 │   │   ├── resources/
 │   │   │   └── test.properties
-│   │   ├── screenshots/
-│   │       ├── allure result 1.png 
-│   │       └── allure result 2.png
+│   │ 
 │   ├── test/
 │       ├── java/
 │           ├── base_test/
